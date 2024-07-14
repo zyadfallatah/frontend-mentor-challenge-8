@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "RedHatText";
+  src: url("../assets//fonts/RedHatText-VariableFont_wght.ttf");
+}
+
+*,
+*::before,
+*::after {
+  font-family: "RedHatText";
+}
